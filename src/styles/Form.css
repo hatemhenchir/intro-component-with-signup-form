@@ -1,0 +1,119 @@
+.alert {
+  width: 80%;
+  max-width: 40rem;
+  margin: 0 auto 1.25rem auto;
+  background-color: hsl(248, 32%, 49%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 4.375rem;
+  border-radius: .8125rem;
+  font-weight: 400;
+  font-size: .875rem;
+  box-shadow: 0 0.45em 0 0 #df6d6d;
+}
+.alert p {
+  padding: 0 3.125rem;
+}
+span {
+  font-weight: 700;
+}
+.form {
+  text-align: center;
+  border-radius: .9375rem;
+  width: 80%;
+  max-width: 40rem;
+  margin: 0 auto 1.25rem auto;
+  background-color: hsl(0, 0%, 100%);
+  padding-top: 1.25rem;
+  box-shadow: 0 0.45em 0 0 #df6d6d;
+}
+.form input {
+  width: 90%;
+  height: 2.5rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1.25rem;
+  border-radius: .25rem;
+  border: .0625rem solid hsl(246, 25%, 77%);
+  font-weight: 700;
+}
+.form input:focus{
+  border: .125rem solid hsl(246, 25%, 77%);
+  outline: none;
+}
+.form button {
+  width: 90%;
+  height: 2.5rem;
+  border-radius: .25rem;
+  border: none;
+  background-color: hsl(154, 59%, 51%);
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: .625rem;
+  cursor: pointer;
+  box-shadow: 0 0.3em 0 0 #2fb179;
+  
+}
+.form p {
+  width: 80%;
+  margin: 0 auto .625rem auto;
+  font-size: .6875rem;
+  color: hsl(246, 25%, 77%);
+  padding-bottom: .625rem;
+}
+.form a {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.input img{
+    position: absolute;
+    transform: translate(-120%,26%);
+}
+.form_error{
+  color: hsl(0, 100%, 74%);
+  font-size: .625rem;
+  font-weight: 500;
+  display: block;
+  transform: translate(0%,-100%);
+  width: 90%;
+  margin: 0 auto;
+  text-align: right;
+  /* margin-bottom: 20px; */
+  
+}
+/* if class input_error  exist remove old  border  and  put  the new  border   */
+input.input_error{
+  border: .125rem solid hsl(0, 100%, 74%); 
+}
+input.input_error:focus{
+  border: .125rem solid hsl(0, 100%, 74%); 
+}
+
+
+@media all and (min-width:1024px){
+    .alert{
+        width: 90%;
+        max-width: 31.25rem;
+    }  
+    .form {
+        width: 90%;
+        max-width: 31.25rem;
+    }
+    .form input{
+        margin-bottom: 1.875rem;
+    }
+    .form button{
+        margin-bottom: .9375rem;
+    } 
+    .form p{
+        padding-bottom: 1.875rem;
+    }
+    .form_error{
+      transform: translate(0%,-150%);
+    }
+}

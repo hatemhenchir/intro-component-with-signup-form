@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Intro Component with Signup Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the Intro Component with Signup Form challenge from Frontend Mentor, built using ReactJS and the `useForm` hook from the `react-hook-form` library.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Intro Component with Signup Form challenge requires building a responsive sign-up form that includes validation and error messages. The form should have four input fields: the user's first and last name, email, and password. The validation requirements are as follows:
 
-### `npm start`
+- Email should be a valid email address
+- Password should be at least 8 characters
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The form is built using the `useForm` hook from the `react-hook-form` library. This allows for easy form management, validation, and error handling.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If any of the validation requirements are not met, the form should display an error message.
 
-### `npm test`
+## Screenshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| ![](./screenshots/desktop.png) | ![](./screenshots/mobile.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
 
-### `npm run build`
+## Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [View the live site](https://hatemhenchir.github.io/intro-component-with-signup-form/)
+- [View the Frontend Mentor challenge](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Responsive design for different screen sizes
+- Validation and error messages for form input fields
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ReactJS
+- HTML5
+- CSS3
+- `react-hook-form`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To install and run the project, follow these steps:
 
-## Learn More
+1. Clone the repository: `git clone https://github.com/hatemhenchir/intro-component-with-signup-form.git`
+2. Navigate to the project directory: `cd intro-component-with-signup-form`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project should now be running on `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+To use the project, open a web browser and navigate to the live demo URL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Enter your first name, last name, email, and password in the form fields. If any of the validation requirements are not met, an error message will be displayed.
 
-### Analyzing the Bundle Size
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Thank you to Frontend Mentor for providing the challenge and to the React community for creating such a powerful framework.
 
-### Making a Progressive Web App
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Design inspiration and assets provided by [Frontend Mentor](https://www.frontendmentor.io/)
+- My LinkedIn: [@hatem-henchir-7a92141a8](https://www.linkedin.com/in/hatem-henchir-7a92141a8/)
+- My Frontend Mentor: [@hatemhenchir](https://www.frontendmentor.io/profile/hatemhenchir)

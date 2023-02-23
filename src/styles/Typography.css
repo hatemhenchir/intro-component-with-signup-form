@@ -1,0 +1,35 @@
+.section1 {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+.section1 h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.75rem;
+  width: 80%;
+  max-width: 40rem;
+  margin: 0 auto 1.25rem auto;
+}
+.section1 p {
+  color: hsl(0, 0%, 100%);
+  font-size: .9375rem;
+  font-weight: 400;
+  width: 80%;
+  max-width: 40rem;
+  margin: 0 auto 2.5rem auto;
+}
+@media all and (min-width: 1024px) {
+  .section1 {
+    width: 31.25rem;
+    margin: 0 auto;
+  }
+  .section1 h1 {
+    width: 29.375rem;
+    text-align: start;
+    font-size: 2.5rem;
+  }
+  .section1 p {
+    width: 29.375rem;
+    text-align: start;
+    font-size: .9375rem;
+  }
+}
