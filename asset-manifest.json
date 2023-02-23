@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/intro-component-with-signup-form/static/css/main.c18c495d.css",
+    "main.js": "/intro-component-with-signup-form/static/js/main.8b1a9eb8.js",
+    "static/js/787.80556326.chunk.js": "/intro-component-with-signup-form/static/js/787.80556326.chunk.js",
+    "static/media/bg-intro-desktop.png": "/intro-component-with-signup-form/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "static/media/bg-intro-mobile.png": "/intro-component-with-signup-form/static/media/bg-intro-mobile.02ce398270ece1769ebc.png",
+    "index.html": "/intro-component-with-signup-form/index.html",
+    "static/media/icon-error.svg": "/intro-component-with-signup-form/static/media/icon-error.b72f792e9c900128f5c88f10a0d8d4b7.svg",
+    "main.c18c495d.css.map": "/intro-component-with-signup-form/static/css/main.c18c495d.css.map",
+    "main.8b1a9eb8.js.map": "/intro-component-with-signup-form/static/js/main.8b1a9eb8.js.map",
+    "787.80556326.chunk.js.map": "/intro-component-with-signup-form/static/js/787.80556326.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c18c495d.css",
+    "static/js/main.8b1a9eb8.js"
+  ]
+}
